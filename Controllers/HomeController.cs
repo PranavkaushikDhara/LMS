@@ -1,12 +1,13 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using LMS.Models;
+using Microsoft.Extensions.Logging;
 
 namespace LMS.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger _logger;
 
     public HomeController(ILogger<HomeController> logger)
     {
