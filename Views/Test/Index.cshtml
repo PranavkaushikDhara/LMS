@@ -1,0 +1,7 @@
+@model TestViewModel
+
+<p>Hi! from the @Model.Name</p>
+@if (@Model.DateOfBirth.HasValue)
+{
+    <p>Your date of Birth is @Model.DateOfBirth</p>
+}

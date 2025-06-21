@@ -49,6 +49,9 @@ obj/
 *.sdf
 packages/
 obj/Debug/
+.idea/
+.idea.LMS/
+.idea/dictionaries/
 
 TestResults/
 [Bb]in/
